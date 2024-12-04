@@ -36,9 +36,9 @@ vim.schedule(function()
   require "mappings"
 end)
 
-vim.keymap.set("n", "<C-v>", function()
-  require("menu").open "default"
-end, {})
+-- vim.keymap.set("n", "<C-v>", function()
+--   require("menu").open "default"
+-- end, {})
 
 vim.keymap.set("n", "<RightMouse>", function()
   vim.cmd.exec '"normal! \\<RightMouse>"'
