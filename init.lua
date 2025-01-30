@@ -40,6 +40,8 @@ end)
 --   require("menu").open "default"
 -- end, {})
 
+vim.cmd "runtime macros/matchit.vim"
+
 vim.keymap.set("n", "<RightMouse>", function()
   vim.cmd.exec '"normal! \\<RightMouse>"'
 
